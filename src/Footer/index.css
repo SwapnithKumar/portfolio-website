@@ -1,0 +1,34 @@
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.icon-image{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 12px;
+}
+.icon{
+    margin: 4px;
+    border: 1px solid;
+    border-radius: 32px;
+    padding: 4px;
+}
+.light-icon{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.dark-icon{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}

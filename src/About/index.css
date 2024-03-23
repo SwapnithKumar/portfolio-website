@@ -1,0 +1,102 @@
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    margin: -30px;
+    padding-top: 50px;
+}
+
+.direction-image-container{
+   display: flex;
+   flex-direction: column;
+   height: 80vh;
+}
+
+.direction-image{
+    align-self: flex-start;
+    height: 400px;
+    width: 300px;
+}
+
+.person-deails-container{
+    display: flex;
+    flex-direction: column;
+    /* width: 100vh; */
+    margin: 10px;
+    position: relative;
+}
+
+.bold-text{
+    font-weight: bold;
+    margin: 0px;
+}
+
+.t-size{
+    font-size: 32px;
+}
+
+
+.details-header{
+    display: flex;
+    align-items: flex-end;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.header-line{
+    width: 300px;
+    height: 0.5px;
+    background-color: black;
+}
+
+.para-text{
+    font-size: 12px;
+    margin: 8px;
+}
+
+.styles-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-image{
+    height: 150px;
+    /* width: 250px; */
+}
+
+.left-image-container{
+    position: relative;
+    align-self: center;
+    bottom: 100px;
+}
+
+.hr-line{
+    width: 200px;
+    height: 0.5px;
+    background-color: black;
+    align-self: flex-start;
+    margin-top: 35px;
+}
+
+.middle-image{
+    height: 200px;
+    width: 200px;
+}
+
+.end-image{
+    height: 100%;
+    width: 200px;
+}
+
+.sidebar{
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+}
+
+.about-left-container{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}

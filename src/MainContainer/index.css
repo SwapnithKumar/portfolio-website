@@ -1,0 +1,86 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-height: 100vh;  
+}
+
+
+.profile-container{
+    display: flex;
+    height: 70vh;
+    padding-top: 42px;
+    justify-content: space-between;
+   
+}
+
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.greet-text{
+    background-image: linear-gradient(#32F6F6,#A6A79F);
+    color: #ffffff;
+    padding: 12px;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Roboto";
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 26px;
+    margin: 0px;
+}
+
+.person-name{
+    color: #737373;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.person-info{
+    margin: 0px;
+}
+
+.button{
+    box-shadow : -15px 5px 20px rgba(0, 0, 0, 0.228);     
+    border: 2px solid #ffffff;
+    outline: none;
+    height: 30px;
+    border-radius: 6px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-family: bold;
+    margin-top: 32px;
+}
+
+.download-button{
+    background-image: linear-gradient(#DF580C,#FD993D);
+}
+
+.get-in-touch-button{
+    background-image: linear-gradient(#434343,#000000);
+}
+
+.person-image{
+    height: 300px;
+    width: 300px;
+}
+
+.person-profile{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.email{
+    font-size: 18px;
+    writing-mode: vertical-rl;
+    align-self: flex-end;
+    transform: rotate(180deg);
+
+}
